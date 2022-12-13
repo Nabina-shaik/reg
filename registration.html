@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/registration.css">
+        </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center">INTERN REGISTERATION</h1>
+            <form class="form-group text-center">
+            <div class="row">
+                <div class="col">
+                    <label>First Name:</label>
+
+                    <input type="text" name="fname" id="fname" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                    <label>Last Name:</label>
+                    <input type="text" name="lname" id="lname" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+            <br>
+             <label>E-mail:</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="E-mail"><br>
+                <div class="row">
+                <div class="col">
+                    <label>Password:</label>
+                    <input type="password"  class="form-control" placeholder="password">
+                </div>
+                <div class="col">
+                    <label>Password Confirm:</label>
+                    <input type="Password"  class="form-control" placeholder="Re-type password">
+                </div>
+            </div><br><br>
+            <h2>PROFILE</h2><br>
+            <div class="upload">
+                <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" id="pic2" width="100" height="100" alt="">
+                <div class="round">
+                    <input type="file">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col">
+                    <label>Date Of Birth:</label>
+                    <input type="number"  class="form-control" id="db"  placeholder="DD/MM/YYYY">
+                </div>
+                <div class="col">
+                    <label>Gender:</label>
+                    <input type="text"  class="form-control" id="gen2" placeholder="F/M">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col">
+                    <label>Phone Number:</label>
+                    <input type="number"id="phn"  class="form-control" placeholder="Number">
+                </div>
+                <div class="col">
+                    <label>Address:</label>
+                    <input type="address"  class="form-control"  id="add"  placeholder="address">
+                </div>
+            </div><br>
+
+            <div class="row">
+                <div class="col">
+                    <label>Aadhar Number:</label>
+                    <input type="number"  class="form-control"id="num" placeholder="Number">
+                </div>
+                <div class="col">
+                    <label>PAN Number:</label>
+                    <input type="text"  class="form-control" id="pn" placeholder="enter pan">
+                </div>
+            </div><br>
+            <div class="col mb-3">
+  <label for="formFile" class="form-label">Resume:</label>
+  <input class="form-control" type="file" id="formFile">
+</div><br><hr>
+
+<h2>QUALIFICATION</h2><br><br><br>
+<h4>CLASS X</h4>
+<div class="row">
+    <div class="col">
+            <label for="board">BOARD</label>
+             <input type="text" id="text1" name="email" class="form-control" placeholder="text">
+                <label for="subject">
+                    YEAR OF PASSING</label>
+                <input type="number" class="form-control" id="ssc"  placeholder="number">
+                <label for="subject">
+                    CGPA</label>
+                <input type="number" class="form-control" id="marks" placeholder="number">
+                  <label for="name">
+                    UPLOAD</label>
+                <input type="file" id="fileselect" name="documents" class="form-control"  style="  width: 310px;">
+            </div>
+ </div>
+
+    <h4>CLASS XII</h4>
+<div class="row">
+    <div class="col">
+            <label for="board">BOARD</label>
+          <input type="text" id="text2" name="email" class="form-control" placeholder="text">
+               <label for="subject">
+                    YEAR OF PASSING</label>
+                <input type="number" class="form-control" id="inter"  placeholder="Number">
+                <label for="subject">
+                    CGPA</label>
+                <input type="text" class="form-control" id="marks2"  placeholder="Number">
+             <label for="name">
+                    UPLOAD</label>
+       <input type="file" id="fileselect" name="documents" class="form-control"  style="  width: 310px;">
+            </div>
+         </div>
+
+    <h4>GRADUATION</h4>
+<div class="row">
+    <div class="col">
+            <label for="board">BOARD</label>
+        <input type="text" id="text3" name="email" class="form-control" placeholder="text">
+            <label for="subject">
+                    YEAR OF PASSING</label>
+                <input type="number" class="form-control" id="ug" placeholder="Number">
+                <label for="number">
+                    CGPA</label>
+                <input type="number" class="form-control" id="marks3"  placeholder="Number">
+            <label for="name"> UPLOAD</label>
+  <input type="file" id="fileselect" name="documents" class="form-control"  style="  width: 310px;">
+             </div>
+ </div><br><br><br>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+          I accept to terms and conditions
+        </label>
+      </div><br><br>
+   <button type="button" class="btn btn-primary" id="btn">Submit</button>
+    </div>
+   </div>
+  </div>
+  <div class="sub-div" id="div" style="visibility:hidden">
+  
+  
+    <h1 align="center" id="name">
+        SHAIK NABINA
+    </h1>
+
+    <p id="ph"> phone no:1234567890</p>
+      <p id="em">  email:snab@gmail.com
+    </p>
+
+<hr>
+<h2>PROFILE</h2>
+
+<p id="dob">dateofbirth:12-12-2002</p>
+<p id="gen">gender:Female</p>
+<p id="ad">address:xxxxxxx</p>
+<p id="aadh">aadhar:xxxxx</p>
+<p id="pan">pan:xxxxx</p><hr>
+
+<h2>
+    EDUCATION QUALIFICATION
+</h2>
+<table border="2px" align="center">
+    <tr>
+        
+        <td id="tenth">
+            Rayalaseema University, Kurnool, A.P.
+        </td>
+        <td id="year1">
+            2023
+        </td>
+        <td id="point1">
+            8.44(SGPA)
+        </td>
+    </tr>
+    <tr>
+        
+        <td id="twelve">
+            Board of Intermediate Education,A.P.
+        </td>
+        <td id="year2">
+            2020
+        </td>
+        <td id="point2">
+            9.82(CGPA)
+        </td>
+    </tr>
+    <tr>
+        
+        <td id="grad">
+            Board of Secondary Education,A.p.
+        </td>
+        <td id="year3">
+            2018
+        </td>
+        <td id="point3">
+            9.5(GPA)
+        </td>
+     </tr>
+</table>
+
+</div>
+
+<script src="js/registration.js"></script>
+
+    </body>
+</html>
